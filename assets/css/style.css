@@ -53,17 +53,17 @@ body {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.centang:after {
+.centang::after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.wadah input:checked ~ .centang:after {
+.wadah input:checked ~ .centang::after {
   display: block;
 }
 
-.wadah .centang:after {
+.wadah .centang::after {
   left: 0.96em;
   top: 0.7em;
   width: 0.25em;
